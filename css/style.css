@@ -126,6 +126,11 @@ article > p {
 	text-align: right;
 }
 
+.next-link-nx > div > a {
+	display: flex;
+	align-items: flex-end;
+}
+
 .next-link-pr-arrow-l,
 .next-link-pr-arrow-r {
 	position: relative;

@@ -23,12 +23,27 @@
 @media (max-width: 650px) {
 	.lists {
 		grid-template-columns: 1fr;
+		border-bottom: 2px solid #ccc;
+		margin: 30px;
+	}
+	.list {
+		display: flex;
+		flex-direction: column;
+	}
+	.list img {
+		height: 80%;
+	}
+	.list a {
+		text-align: center;
 	}
 	.next-link-pr-arrow-r::after{
 		transform: translateY(-50%) rotate(-45deg);
 		margin: -42% -7% 0% 100%;
 	}
-	.next-link-nx div a {
+	.next-link-nx a {
 		text-align: right;
+	}
+	.rel-art-item  {
+		margin-bottom: 30xp ;
 	}
 }
