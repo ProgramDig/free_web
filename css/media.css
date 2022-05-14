@@ -1,0 +1,34 @@
+@media (max-width: 950px) {
+	.home {
+		grid-template-columns: 1fr;
+	}
+
+	.lists {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		gap: 20px;
+	}
+
+	.list {
+		grid-template-columns: 1fr 5fr;
+	}
+
+	.rel-art {
+		flex-direction: column;
+		align-items: center;
+		margin-bottom: 30px;
+	}
+}
+
+@media (max-width: 650px) {
+	.lists {
+		grid-template-columns: 1fr;
+	}
+	.next-link-pr-arrow-r::after{
+		transform: translateY(-50%) rotate(-45deg);
+		margin: -42% -7% 0% 100%;
+	}
+	.next-link-nx div a {
+		text-align: right;
+	}
+}
