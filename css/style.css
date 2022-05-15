@@ -16,6 +16,53 @@ body {
 	max-width: 1200px;
 }
 
+header {
+	position: sticky;
+	z-index: 3;
+	top: 0;
+}
+
+.nav {
+	display: flex;
+	justify-content: space-between;
+
+	font-size: 20px;
+	margin-bottom: 15px;
+
+	background-color: crimson;
+}
+
+.header-logo {
+	display: flex;
+	align-items: center;
+	font-weight: 700;
+	font-size: 24px ;
+	margin-left: 30px;
+	color: #fff;
+}
+
+
+.nav > div {
+	flex-grow: 2;
+}
+
+.nav > .nav-item	 {
+	flex-grow: 3;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.nav-item > a {
+	color: #fff;
+
+	font-weight: 700;
+}
+
+.icon {
+	display: none;
+}
+
 .heading-1 {
 	font-size: 40px;
 	text-transform: uppercase;

@@ -1,3 +1,21 @@
+@media screen and (max-width: 1010px) {
+	.nav > .nav-item {
+		margin-right: 30px;
+		justify-content: flex-end;
+	}
+
+	.nav-item > a {
+		display: none;
+	}
+
+	.nav-item a.icon {
+		float: right;
+		margin-left: 10%;
+		display: block;
+		font-size: 25px;
+	}
+}
+
 @media (max-width: 950px) {
 	.home {
 		grid-template-columns: 1fr;
