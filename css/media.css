@@ -80,12 +80,11 @@
 		left: 0;
 		width: 100%;
 		/* higth: 100%*/
-		background-color: crimson;
-		opacity: 0.7;
+		background-color: rgb(220, 20, 60,0.7);
 		padding: 50px 10px 20px 10px;
 		transition: all 0.3s ease 0s;
 	}
-	.header__menu a {
+	.header__link {
 		opacity: 1;
 	}
 	.header__menu.active {
