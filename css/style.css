@@ -16,6 +16,67 @@ body {
 	max-width: 1200px;
 }
 
+.header {
+	position: fixed;
+	width: 100%;
+	top: 0;
+	left: 0;
+	z-index: 50;
+}
+
+.header__logo {
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 18px;
+	text-decoration: none;
+	margin: 0px 0px 0px 20px;
+	font-weight: 700;
+	position: relative;
+	z-index: 3;
+}
+
+.header:before {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: crimson;
+	z-index: 2;
+}
+
+.header__body {
+	position: relative;
+	display: flex;
+	justify-content: space-between;
+	height: 40px;
+	align-items: center;
+}
+
+.header__list {
+	display: flex;
+	position: relative;
+	z-index: 2;
+}
+
+.header__list li {
+	list-style: none;
+	margin: 0px 0px 0px 20px;
+}
+
+.header__link {
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 18px;
+	text-decoration: none;
+}
+
+.header__burger {
+	display: none;
+}
+
+/*
 header {
 	position: sticky;
 	z-index: 3;
@@ -62,7 +123,7 @@ header {
 .icon {
 	display: none;
 }
-
+*/
 .heading-1 {
 	font-size: 40px;
 	text-transform: uppercase;
@@ -87,6 +148,7 @@ header {
 	align-items: center;
 	margin-bottom: 30px;
 	border-bottom: 2px solid #ccc;
+	padding-top: 40px;
 	padding-bottom: 10px;
 }
 
