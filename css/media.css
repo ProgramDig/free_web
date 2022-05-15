@@ -79,7 +79,7 @@
 		top: -100%;
 		left: 0;
 		width: 100%;
-		
+		/* higth: 100%*/
 		background-color: crimson;
 		opacity: 0.7;
 		padding: 50px 10px 20px 10px;
@@ -123,7 +123,10 @@
 		text-align: right;
 	}
 	.rel-art-item  {
-		margin-bottom: 30xp ;
+		margin-bottom: 10px;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
 	}
 	.back-to-top {
 		width: 35px;
