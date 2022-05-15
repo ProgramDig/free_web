@@ -191,3 +191,24 @@ footer {
 	text-align: center;
 	
 }
+
+.back-to-top {
+	position: fixed;
+	bottom: -50px;
+	right: 10px;
+	background-color: crimson;
+	width: 50px;
+	height: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 50%;
+	cursor: pointer;
+	transition: 0.4s linear;
+	opacity: 0.8;
+}
+
+.back-to-top.active {
+	bottom: 50px;
+	transition: 0.4s linear;
+}

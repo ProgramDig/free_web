@@ -38,12 +38,16 @@
 	}
 	.next-link-pr-arrow-r::after{
 		transform: translateY(-50%) rotate(-45deg);
-		margin: -42% -7% 0% 100%;
+		margin: -49% -7% 0% 100%;
 	}
 	.next-link-nx a {
 		text-align: right;
 	}
 	.rel-art-item  {
 		margin-bottom: 30xp ;
+	}
+	.back-to-top {
+		width: 35px;
+		height: 35px;
 	}
 }
